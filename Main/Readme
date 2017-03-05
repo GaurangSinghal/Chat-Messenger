@@ -1,6 +1,7 @@
 This folder contains the code for front-end.
 
-It contains two folders:
+The folder java contains the java code of the app.
 
-java : It contains the java code of the app.
-res  : It contains the xml files of the app.
+Rest of the folders contain xml files.
+
+
