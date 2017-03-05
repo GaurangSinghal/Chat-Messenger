@@ -1,5 +1,5 @@
 # Chat-Messenger
-This is an Android Chatting Application which we, me and my two other project partners, developed for our B.Tech. project.
+This is an Android Chatting Application which me and my two project partners developed for our B.Tech. project.
 
 It implements "Message Scheduling".
 We also have "Hide Chat" feature in this.
