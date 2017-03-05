@@ -1,0 +1,166 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashish_pc.feedback.addquestionfragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            >
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listViewuserfeedbackquestion"
+                android:layout_weight="1" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                >
+
+
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:hint="Enter feedback question....."
+                    android:ems="10"
+                    android:id="@+id/editTextquestion"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:layout_width="5dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageButtonadd"
+                    android:background="@android:drawable/ic_menu_send"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="14dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Tap icons to select the way of getting reviews."
+            android:id="@+id/textViewnotice"
+             />
+     </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+         android:gravity="center"
+         android:background="#f1f8e9"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        >
+         <ImageView
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+             android:id="@+id/imageViewhappyse"
+             android:background="@drawable/happy"
+             android:layout_marginLeft="0dp"  />
+
+         <ImageView
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+             android:id="@+id/imageViewstarse"
+             android:background="@drawable/fillstar"
+             android:layout_marginLeft="5dp"  />
+         <ImageView
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:id="@+id/imageViewehandse"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+             android:background="@drawable/tuph"
+             android:layout_marginLeft="5dp"  />
+         <ImageView
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:id="@+id/imageViewemheartse"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+             android:background="@drawable/like"
+             android:layout_marginLeft="5dp"  />
+
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:text="Submit"
+            android:id="@+id/buttonsubmit"
+            android:layout_marginBottom="15dp"
+            android:textColor="#757575"
+            android:textSize="20dp"
+            android:background="#f1f8e9"
+            android:onClick="submit"
+            android:layout_marginTop="20dp" />
+      </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+</FrameLayout>

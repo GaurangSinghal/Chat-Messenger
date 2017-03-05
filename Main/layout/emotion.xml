@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff8e1"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/happy"
+        android:id="@+id/imageView7" />
+
+        <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/sad"
+        android:id="@+id/imageView10" />
+
+        <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/great"
+        android:id="@+id/imageView11" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/cry"
+        android:id="@+id/imageView12" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/angry"
+        android:id="@+id/imageView13"
+         />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/heart"
+            android:id="@+id/imageView14"
+           />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/hearts2"
+            android:id="@+id/imageView17"
+           />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/tuph"
+            android:id="@+id/imageView15"
+           />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/tdoh"
+            android:id="@+id/imageView18"
+            />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/fillstar"
+            android:id="@+id/imageView16"
+             />
+
+
+    </LinearLayout>
+</LinearLayout>

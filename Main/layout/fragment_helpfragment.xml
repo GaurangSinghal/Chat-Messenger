@@ -1,0 +1,282 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashish_pc.feedback.helpfragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="#69f0ae"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/imageViewreviewpic"
+                android:background="@drawable/view"
+                android:layout_marginLeft="10dp"  />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="2dp"
+                    android:id="@+id/imageView1"
+                    android:background="@drawable/outline"
+                    android:layout_marginLeft="5dp"  />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="How to see reviews? "
+                    android:id="@+id/textViewreviewhelp"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="#ffc400"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/imageViewaddpic"
+                android:background="@drawable/addd"
+                android:layout_marginLeft="10dp"  />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="2dp"
+                    android:id="@+id/imageView2"
+                    android:background="@android:drawable/ic_menu_add"
+                    android:layout_marginLeft="5dp"  />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="How to add question? "
+                    android:id="@+id/textViewaddhelp"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#00bfa5"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/imageVieweditpic"
+                    android:background="@drawable/e"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="2dp"
+                        android:id="@+id/imageView3"
+                        android:background="@android:drawable/ic_menu_edit"
+                        android:layout_marginLeft="5dp"  />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:textSize="10dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="How to edit question? "
+                        android:id="@+id/textViewedithelp"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:background="#ff9800"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/imageViewuserfeepic"
+                    android:background="@drawable/oeil"
+                    android:layout_marginLeft="10dp"  />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="2dp"
+                        android:id="@+id/imageView4"
+                        android:background="@android:drawable/ic_menu_view"
+                        android:layout_marginLeft="5dp"  />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:textSize="10dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="How to view question? "
+                        android:id="@+id/textViewuserhelp"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+   </LinearLayout>
+
+</FrameLayout>

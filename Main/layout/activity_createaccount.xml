@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashish_pc.feedback.createaccount">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+           android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/imageviewlogo"
+                    android:background="@drawable/iconn"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageviewcamera"
+                    android:background="@android:drawable/ic_menu_camera"
+                    />
+
+            </LinearLayout>
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:id="@+id/imagev5"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/user"
+                            android:layout_marginTop="5dp"
+
+                            />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:inputType="textPersonName"
+                            android:hint="Name"
+                            android:ems="10"
+                            android:id="@+id/editTextname"
+                            android:layout_marginLeft="10dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:id="@+id/imagev6"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/pro"
+                            android:layout_marginTop="5dp"
+
+                            />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:inputType="textPersonName"
+                            android:hint="Date Of Birth"
+                            android:ems="10"
+                            android:id="@+id/editTexttype"
+                            android:layout_marginLeft="10dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:id="@+id/imagev7"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:drawable/ic_menu_edit"
+                            />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:inputType="textPostalAddress"
+                            android:hint="Status"
+                            android:ems="10"
+                            android:id="@+id/editTextweb"
+                            android:layout_marginLeft="10dp"/>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:id="@+id/imagev9"
+                            android:layout_marginLeft="5dp"
+                            android:background="@android:drawable/ic_dialog_email"
+                            android:layout_marginTop="5dp"
+
+                            />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:inputType="textEmailAddress"
+                            android:hint="Email"
+                            android:ems="10"
+                            android:id="@+id/editTexemail"
+                            android:layout_marginLeft="10dp"/>
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:id="@+id/imagev8"
+                            android:layout_marginLeft="5dp"
+                            android:background="@android:drawable/ic_menu_view"
+                            android:layout_marginTop="5dp"
+
+                            />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:inputType="textPassword"
+                            android:hint="Password"
+                            android:ems="10"
+                            android:id="@+id/editTextpass"
+                            android:layout_marginLeft="10dp"/>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:text="Add account"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:onClick="addcontact"
+                android:id="@+id/buttonaddaccount"
+                android:background="#03a9f4"
+                android:layout_gravity="center_horizontal" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

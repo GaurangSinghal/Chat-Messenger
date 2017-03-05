@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#2196f3"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView5"
+            android:background="@drawable/e"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="WYHO"
+            android:textColor="#bdbdbd"
+            android:textSize="30dp"
+            android:id="@+id/textView6"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#e0e0e0"
+            android:textSize="16dp"
+            android:text="'Write Your Heart Out'"
+            android:id="@+id/textView7"
+            android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:background="#64b5f6"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:inputType="textPersonName"
+            android:hint="Username,Email"
+            android:ems="10"
+            android:id="@+id/editTextusername"
+            android:layout_centerHorizontal="true" />
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/imageView8"
+            android:background="@android:drawable/ic_dialog_email"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:background="#64b5f6"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:ems="10"
+                android:id="@+id/editTextuserpassword"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/imageView9"
+                android:background="@android:drawable/ic_menu_view"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                />
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:background="#2196f3"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="0dp"
+                android:id="@+id/imageViewunlock"
+                android:onClick="companylogin"
+                android:background="@drawable/unlock"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="80dp"
+                android:onClick="register"
+                android:id="@+id/imageViewregister"
+                android:background="@drawable/signup"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                />
+
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
