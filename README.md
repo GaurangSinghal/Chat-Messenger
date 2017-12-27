@@ -1,7 +1,16 @@
-# Chat-Messenger
-This is an Android Chatting Application which me and my two project partners developed for our B.Tech. project.
+# Chat Messenger
+An Android Chatting Application.
 
-It implements "Message Scheduling".
-We also have "Hide Chat" feature in this.
+### Features:
+* Message Scheduling for automated delivery of messages at specified date and time.
+* Hide chat functionality as a privacy feature in the app.
 
-Tech Stack: Java(Android), PHP, MySQL and XAMPP
+#### Technology Stack:
+* Java
+* PHP
+* MySQL
+* XAMPP
+* Android Studio
+
+
+
